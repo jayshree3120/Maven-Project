@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browserName" value="edge"/>
+  <listeners>
+    <listener class-name="failtestcases.IAnnotationRetryListner"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/SOPAN/IdeaProjects/MavenProject(failed)">
+    <classes>
+      <class name="annotation.AnnotationExample">
+        <methods>
+          <include name="testAnnotation1"/>
+          <include name="testAnnotation4"/>
+          <include name="testAnnotation2"/>
+          <include name="testAnnotation3"/>
+          <include name="afterAnnotationExample"/>
+          <include name="testAnnotation5"/>
+          <include name="beforeAnnotationExample"/>
+        </methods>
+      </class> <!-- annotation.AnnotationExample -->
+    </classes>
+  </test> <!-- C:/Users/SOPAN/IdeaProjects/MavenProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
